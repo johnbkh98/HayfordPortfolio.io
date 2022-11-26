@@ -10,10 +10,11 @@
     <link rel="stylesheet" type="text/css" href="Assets/CSS/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a22ed12070.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Assets/imgs/favicon.ico">
 </head>
 <body>
     <section class="font">
-        <!-- Creating Nav Bar Using Bootstrap -->
+        <!-- Navbar starts here-->
         <div>
             <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
@@ -25,24 +26,29 @@
                     <div class="navbar-nav">
                         <a class="text-light nav-item nav-link" href="#about">ABOUT<span class="sr-only">(current)</span></a>
                         <a class="text-light nav-item nav-link" href="#projects">PROJECTS</a>    
-                        <a class="text-light nav-item nav-link " href="#Contact">CONTACT <i class="far fa-address-book"></i></a>
+                        <a class="text-light nav-item nav-link" href="#experience">EXPERIENCE</a>    
+                        <a class="text-light nav-item nav-link" href="#education">EDUCATION</a>    
+                        <a class="text-light nav-item nav-link " href="#Contact"> <i class="far fa-address-book"></i> </a>
                     </div>
                     </div>
                 </div>
               </nav>
         </div>
+        <!-- Navbar ends here!! -->
     </section>
+
     
 
    <section class="font">
     <div class="me">
         <!-- Intro to my portfolio -->
-        <h1> Hello, I'm John Hayford. </h1>
-        <h1>I'm a STEM graduate front-end developer.</h1>
+        <h1> John Hayford </h1>
+        <h1>Full Stack Developer</h1>
         <hr class="hr">
         <div>
             <a class="link" href="https://www.linkedin.com/in/john-hayford-653598151/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
+        <br />
         <a href="#about"><button class="btn btn-secondary">Continue</button> </a >
        
     </div>
@@ -56,58 +62,65 @@
                 <div  class="about col-lg-6 col-md-12">
                     <h2>About</h2>
                     <hr class="hrb">
-                    <p>I am a recent STEM graduate, who is highly passionate and knowledgeable about web development and UI design. Fluent in vanilla HTML, 
-                        CSS, and JavaScript and familiar with popular CSS and JavaScript frameworks. I am a team player with good communication skills as I have 
-                        experience in working in a bar with a big team. I have taken multiple web development 
-                        courses on ‘Udemy’ post-graduation in order to improve my skills. I am looking for a long-term employment where I can build challenging 
-                        websites and web applications either in a team or individually.
+                    <p>
+                        I am a recent MSc graduate with Experienced in working with various technologies including <b>Docker</b> and <b>Kubernestes</b> which was used to build a software system based on microservices 
+                        which allows students to register for projects and for supervisors to see which students are registered to their projects.
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <h2>Skill-sets</h2>
+                    <h2>Key Skills</h2>
                     <hr class="hrb">
-                    <table class="table">
-                        <tr>
-                            <th>Language/ Framework</th>
-                            <th>Level</th>   
-                        </tr>
-                        <tr>
-                            <td>HTML <i class="fab fa-html5 fab1"></i></td>
-                            <td class="level">Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>CSS <i class="fab fa-css3-alt"></i></td>
-                            <td class="level">Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript <i class="fab fa-js-square"></i></td>
-                            <td class="level">Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>Bootstrap <i class="fab fa-bootstrap"></i></td>
-                            <td class="level">Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>JQuery <i class="fab fa-js-square"></i></td>
-                            <td class="level">Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>React <i class="fab fa-react"></i></td>
-                            <td class="level">Basic</td>
-                        </tr>
-                    </table> 
-                    
-                        
+                    <ul>
+                        <li>Experienced with <b>JavaScript</b>, <b>PHP</b>, <b>HTML</b> and <b>CSS</b> (including Boostrap)</li>
+                        <li>Experienced with <b>Laravel</b> framework, familiar with <b>React.js</b>, <b>Node.js</b> and <b>Express.js</b></li>
+                        <li>Experienced with <b>SQL</b> and familiar with <b>MongoDB</b></li>
+                        <li>Strong Object-Oriented programming skills</li>
+                        <li>Code review</li>
+                        <li>Knowledgeable and familiar with API’s.</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        
-            
-        
+
         <div id="projects" class="projects anchor">
             <h2>Projects</h2>
             <hr class="hrb">
             <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/imgs/movie.PNG" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Movie Comparisons</h5>
+                          <p class="card-text">An app which allows user to easily compare 2 offical movies.</p>
+                          <strong><p>Tools used</p></strong>
+                          <p><ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                            <li>JavaScript</li>
+                            </ul>
+                          </p>
+                          <a href="Assets/Projects/movies_compare/index.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/imgs/message.PNG" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Secret Message</h5>
+                          <p class="card-text">An app which allows users to share encrypted messages</p>
+                          <strong><p>Tools used</p></strong>
+                          <p><ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                            <li>JavaScript</li>
+                            </ul>
+                          </p>
+                          <a href="Assets/Projects/message/index.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
+                        </div>
+                      </div>
+                </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="Assets/imgs/bucket.PNG" alt="Card image cap">
@@ -144,22 +157,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="Assets/imgs/purffect.PNG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Purffect Match</h5>
-                          <p class="card-text">A well designed landing page for cat lovers, to find the right cat for them.</p>
-                          <strong><p>Tools used</p></strong>
-                          <p><ul>
-                              <li>CSS</li>
-                            <li>HTML</li>
-                            </ul>
-                          </p>
-                          <a href="Assets/Projects/The Purfect Match/purrfecr.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="Assets/imgs/colour.PNG" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Colour Game</h5>
@@ -177,72 +174,71 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="Assets/imgs/blog.PNG" alt="Card image cap">
+                        <img class="card-img-top" src="Assets/imgs/purffect.PNG" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Blog</h5>
-                          <p class="card-text">A well designed blog post. Simple but good looking.</p>
+                          <h5 class="card-title">Purffect Match</h5>
+                          <p class="card-text">A well designed landing page for cat lovers, to find the right cat for them.</p>
                           <strong><p>Tools used</p></strong>
                           <p><ul>
                               <li>CSS</li>
                             <li>HTML</li>
                             </ul>
-                          <a href="Assets\Projects\BlogExe/blog.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="Assets/imgs/gallery.PNG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Gallery</h5>
-                          <p class="card-text">Exotic Gallery of images.</p>                 
-                          <strong><p>Tools used</p></strong>
-                          <p><ul>
-                              <li>Boostrap</li>
-                              <li>CSS</li>
-                            <li>HTML</li>
-                            </ul><a href="Assets\Projects\Gallery/gallery.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
+                          </p>
+                          <a href="Assets/Projects/The Purfect Match/purrfecr.html" target="_blank" class="btn btn-outline-secondary">View Project</a>
                         </div>
                       </div>
                 </div>
             </div>       
         </div>
+        </div>
+    </div>
+    
+   </section>
+
+   <section>
+    <div id="experience" class="experience anchor">
+        <h2>Experience</h2>
+        <hr class="hrb">
+        <div class="center">
+            <!-- <ul class="list-group list-group-flush"> -->
+             Darktrace Holdings LTD – <b>Software Engineer ·</b> (May 2022 - Current) <br>
+             IKEA Tottenham – <b>Restaurant Staff · </b>(2021 - 2022) <br>
+             Chiltern Firehouse London – <b>Bar Staff · </b> (2018 - 2021) <br>
+            <!-- </ul> -->
+        </div>
     </div>
    </section>
+   
+   <section>
+    <div id="education" class="education anchor">
+        <h2>Education</h2>
+        <hr class="hrb">
+        <div class="center">
+            <ul class="list-group list-group-flush">
+                <p>University of Kent – <b> MSc Advanced Computer Science  </b> (2021 – 2022) </p>
+                <p>University of Hertfordshire – <b> Computer Technology Networks  </b> (2016 – 2019) </p>
+                <p>Thomas More Secondary School - <b> BTEC IT </b>  (2014 – 2016) </p>
+            </ul>
+        </div>
+    </div>
+   </section>
+
    <section class="font">
     <div id="Contact" class="container anchor">
         <h2>Contact</h2>
         <hr class="hrb">
         <div class="form">
-            <!-- <form action="">
-                <input type="text" placeholder="Name" required>
-                <p></p>
-                <input type="email" placeholder="Email" required>
-                <p></p>
-                <textarea name="message" placeholder="Message" id="" cols="30" rows="5" required></textarea>
-                <p></p>
-                <button class="btn btn-secondary">Email Me</button>
-            </form> -->
-            <a class="btn btn-outline-secondary" href="mailto:johnbkh17@gmail.com?Subject=Hello John,%20" target="_top"">Email Me</a>
+            <a class="btn btn-outline-secondary" href="mailto:johnbkh17@gmail.com?Subject=Hello John,%20" target="_top">Email Me</a>
         </div>
     </div>
    </section>
-    
 
    <section class="font">
-       
-           <footer>
-            
-            <p class="btmfoot">John Hayford © 2019</p>
-            <p>All Projects inspired by Udemy Courses</p>
-           </footer>
-           
+    <footer>
+        <p class="btmfoot">John Hayford © 2019</p>
+    </footer>   
    </section>
     
-    
-    
-    
-
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

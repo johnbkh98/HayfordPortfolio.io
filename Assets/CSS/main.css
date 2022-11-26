@@ -134,5 +134,6 @@ hr.hrb {
     object-fit: cover;
 }
 
-
-
+.center {
+    text-align: center;
+  }
